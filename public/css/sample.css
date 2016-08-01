@@ -1,0 +1,13 @@
+.error {color:red;}
+button.delete-button{
+  float:right;
+  background-color: gray !important;
+  color:white;
+   margin-right: 1rem
+}
+button.update-button{
+  float:right;
+  background-color: gray !important;
+  color:white;
+  margin-right: 1rem
+}
