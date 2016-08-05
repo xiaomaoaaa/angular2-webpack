@@ -1,6 +1,7 @@
 import { Component }          from '@angular/core';
 import { ROUTER_DIRECTIVES }  from '@angular/router';
 import { HeroService }        from './hero.service';
+import './rxjs-extensions';
 import '../../public/css/styles.css';
 import '../../public/css/sample.css';
 @Component({

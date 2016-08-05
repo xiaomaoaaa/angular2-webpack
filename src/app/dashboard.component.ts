@@ -4,11 +4,13 @@ import { Component, OnInit } from '@angular/core';
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
 import { Router } from '@angular/router';
+import { HeroSearchComponent } from './hero-search.component';
 
 @Component({
   selector: 'my-dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls:['./dashboard.component.css'],
+   directives: [HeroSearchComponent]
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
